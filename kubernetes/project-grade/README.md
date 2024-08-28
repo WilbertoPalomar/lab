@@ -7,3 +7,5 @@
 ### - kubectl logs -f grade-submission-portal -c grade-submission-portal
 ### - kubectl logs -f grade-submission-portal -c grade-submission-portal-health-checker
 ### - k run -h | less
+### - k delete pods,services --all -n grade-submission
+### - k apply -f . -n grade-submission
