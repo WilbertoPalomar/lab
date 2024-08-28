@@ -1,0 +1,8 @@
+# Useful Commands
+## kubectl apply -f grade-submission-portal-pod.yaml
+## kubectl describe pod grade-submission-portal
+## kubectl logs grade-submission-portal
+## kubectl logs grade-submission-portal -f
+## kubectl port-forward grade-submission-portal 8080:5001
+## kubectl logs -f grade-submission-portal -c grade-submission-portal
+## kubectl logs -f grade-submission-portal -c grade-submission-portal-health-checker
