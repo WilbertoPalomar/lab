@@ -9,3 +9,4 @@
 ### - k run -h | less
 ### - k delete pods,services --all -n grade-submission
 ### - k apply -f . -n grade-submission
+### - k get deployments -n grade-submission
