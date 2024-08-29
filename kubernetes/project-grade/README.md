@@ -10,3 +10,4 @@
 ### - k delete pods,services --all -n grade-submission
 ### - k apply -f . -n grade-submission
 ### - k get deployments -n grade-submission
+### - kubectl rollout undo deployment/grade-submission-api -n grade-submission  (rollback the deployment)
