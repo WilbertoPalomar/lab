@@ -1,0 +1,1 @@
+# This lab covers both Docker and Docker Compose
