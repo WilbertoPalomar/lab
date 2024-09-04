@@ -9,3 +9,4 @@
 ### docker image rm <image_id>
 ### docker build -t flask-application:0.0.1 .
 ### docker run flask-application:0.0.1
+### docker system prune -a
